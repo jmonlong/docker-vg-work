@@ -6,4 +6,6 @@ RUN conda install -c bioconda -c conda-forge -c defaults samtools=1.10.0 freebay
 
 RUN conda install bioconda::picard
 
+COPY rename_bam_stream.py /opt/scripts/
+
 WORKDIR /app

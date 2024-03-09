@@ -8,3 +8,5 @@ Latest image is `quay.io/jmonlong/vg-work:1.53.0_v1` and provides:
 - samtools v1.10.0
 - picard v2.18.29
 - seqtk v1.3
+
+It also contains a small python script to rename sequences in a SAM stream, available at `/opt/scripts/rename_bam_stream.py` within the container.
