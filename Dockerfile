@@ -8,4 +8,6 @@ RUN conda install bioconda::picard
 
 COPY rename_bam_stream.py /opt/scripts/
 
+COPY subset_fastq_seqtk.py /opt/scripts/
+
 WORKDIR /app
