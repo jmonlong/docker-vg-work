@@ -6,6 +6,8 @@ RUN conda install -c bioconda -c conda-forge -c defaults samtools=1.10.0 freebay
 
 RUN conda install bioconda::picard
 
+RUN conda install python=3.7
+
 COPY rename_bam_stream.py /opt/scripts/
 
 COPY subset_fastq_seqtk.py /opt/scripts/
