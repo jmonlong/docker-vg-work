@@ -32,7 +32,7 @@ RUN apt-get update \
 WORKDIR /bin
 
 ## vg
-RUN wget --quiet --no-check-certificate https://github.com/vgteam/vg/releases/download/v1.59.0/vg && \
+RUN wget --quiet --no-check-certificate https://github.com/vgteam/vg/releases/download/v1.64.1/vg && \
     chmod +x vg
 
 ENV PATH=$PATH:/bin
