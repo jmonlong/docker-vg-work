@@ -1,9 +1,9 @@
 Docker container with [vg](https://github.com/vgteam/vg) and a few other tools.
 Deposited at [quay.io/jmonlong/vg-work](https://quay.io/repository/jmonlong/vg-work?tab=info)
 
-Latest image is `quay.io/jmonlong/vg-work:1.64.1_v1` and provides:
+Latest image is `quay.io/jmonlong/vg-work:1.66.0_v1` and provides:
 
-- vg v1.64.1
+- vg v1.66.0
 - freebayes v1.2.0
 - samtools v1.20.0
 - htslib v1.20.0 (inc. tabix with GAF indexing option)
